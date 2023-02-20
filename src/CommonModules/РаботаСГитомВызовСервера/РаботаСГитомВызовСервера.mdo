@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="894c61aa-081c-43e2-835b-a46e2a065621">
-  <name>РаботаСГитом</name>
+  <name>РаботаСГитомВызовСервера</name>
   <synonym>
     <key>ru</key>
-    <value>Работа с гитом</value>
+    <value>Работа с гитом вызов сервера</value>
   </synonym>
   <server>true</server>
   <serverCall>true</serverCall>

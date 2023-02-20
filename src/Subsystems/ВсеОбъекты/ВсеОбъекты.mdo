@@ -15,7 +15,7 @@
   <content>DataProcessor.ПереносИзменений</content>
   <content>Constant.КаталогПлатформ</content>
   <content>CommonModule.РаботаСГитомКлиент</content>
-  <content>CommonModule.РаботаСГитом</content>
+  <content>CommonModule.РаботаСГитомВызовСервера</content>
   <content>CommonModule.РаботаСГитомКлиентСервер</content>
   <content>Catalog.БазыДанных</content>
 </mdclass:Subsystem>
