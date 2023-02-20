@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="366bc4ee-3b7c-4fcd-8779-4b718c7251ad">
+  <producedTypes>
+    <objectType typeId="dd7aab2c-6a6d-40c0-9ad3-ee2a33b22a2b" valueTypeId="cab670de-61da-4a09-80a6-6fb23c972934"/>
+    <managerType typeId="187c1c14-9b36-4a6a-b277-e55c6c8526e6" valueTypeId="6c17c703-ff0e-4a67-8f29-4cbc5798b752"/>
+  </producedTypes>
+  <name>ОбновитьКоммиты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновить коммиты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбновитьКоммиты.Form.Форма</defaultForm>
+  <forms uuid="de0e5934-6ded-4152-9147-7a46776e7e93">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

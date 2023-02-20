@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19fe4341-957b-4e79-889f-31a92c6bd355">
+  <name>ВсеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Все объекты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ГитХранилища</content>
+  <content>Catalog.Коммиты</content>
+  <content>DataProcessor.ОбновитьКоммиты</content>
+  <content>Catalog.Конфигурации</content>
+  <content>Constant.РабочаяПапка</content>
+  <content>DataProcessor.ПереносИзменений</content>
+  <content>Constant.КаталогПлатформ</content>
+  <content>CommonModule.РаботаСГитомКлиент</content>
+  <content>CommonModule.РаботаСГитом</content>
+  <content>CommonModule.РаботаСГитомКлиентСервер</content>
+  <content>Catalog.БазыДанных</content>
+</mdclass:Subsystem>

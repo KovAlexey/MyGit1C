@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d719fb1-c4d6-4780-ad31-d7dbc5f44b6b">
+  <producedTypes>
+    <managerType typeId="72f59a52-17ff-430b-bd87-f6a4ce8625bc" valueTypeId="cd49c036-3305-4614-8772-f92e3d83ea21"/>
+    <valueManagerType typeId="df927356-5094-4f54-83bc-d17d83840665" valueTypeId="c817b25b-0249-45de-8cbd-6d9b0349c28d"/>
+    <valueKeyType typeId="275ed574-2857-49f7-a5b8-f8abea8d479c" valueTypeId="d1c4af3f-b0ad-458b-9be0-3a74be96a1d7"/>
+  </producedTypes>
+  <name>РабочаяПапка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочая папка</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
