@@ -35,7 +35,7 @@
   </languages>
   <subsystems>Subsystem.ВсеОбъекты</subsystems>
   <commonModules>CommonModule.РаботаСГитомКлиент</commonModules>
-  <commonModules>CommonModule.РаботаСГитом</commonModules>
+  <commonModules>CommonModule.РаботаСГитомВызовСервера</commonModules>
   <commonModules>CommonModule.РаботаСГитомКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
   <constants>Constant.РабочаяПапка</constants>
