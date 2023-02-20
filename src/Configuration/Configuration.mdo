@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14b1124f-01ef-4f03-8807-86dd1822f648">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="ef91cefe-9e58-4490-af61-8b3fb7a5074e"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="64668a3f-c4f7-42fc-b6d9-2c2701919f2a"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="962ee02d-8bca-4776-b14b-dd373b39e640"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="5327e140-3296-4efd-b10a-7eef74789930"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="bcb0d0dd-c0b8-4d8c-b3e4-4ce38c0459cb"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="f69b3afe-c604-44f9-9f81-069f63a58a07"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="e54bacfc-54ce-4ea0-81f2-5597fd41be01"/>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <compatibilityMode>8.3.20</compatibilityMode>
+  <languages uuid="53069fec-f3d8-412c-80da-ebf997fd0fdf">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ВсеОбъекты</subsystems>
+  <commonModules>CommonModule.РаботаСГитомКлиент</commonModules>
+  <commonModules>CommonModule.РаботаСГитом</commonModules>
+  <commonModules>CommonModule.РаботаСГитомКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
+  <constants>Constant.РабочаяПапка</constants>
+  <constants>Constant.КаталогПлатформ</constants>
+  <catalogs>Catalog.ГитХранилища</catalogs>
+  <catalogs>Catalog.Коммиты</catalogs>
+  <catalogs>Catalog.Конфигурации</catalogs>
+  <catalogs>Catalog.БазыДанных</catalogs>
+  <dataProcessors>DataProcessor.ОбновитьКоммиты</dataProcessors>
+  <dataProcessors>DataProcessor.ПереносИзменений</dataProcessors>
+</mdclass:Configuration>

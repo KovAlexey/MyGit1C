@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53a4bddf-117f-473c-b063-799f648e183e">
+  <producedTypes>
+    <objectType typeId="93d663fa-4d4a-4359-95c3-da5b419c8fe0" valueTypeId="e7957b62-a89a-48c3-9841-bfaeae4da950"/>
+    <refType typeId="5dc92be6-2c91-4aca-9295-913cd1f939ce" valueTypeId="59edf652-6aef-4e01-b39a-2eb8bb446a2a"/>
+    <selectionType typeId="9e875a0d-4e0c-4269-a0d0-567439de5836" valueTypeId="0c812bfe-8e85-4a7d-b4a0-5a55a040699a"/>
+    <listType typeId="7f728a8c-30cd-4c3c-87bc-a503977cb96c" valueTypeId="790235b1-fad6-4296-a5d8-2efa9b35d397"/>
+    <managerType typeId="5def3295-f645-4403-be1a-e89d0a66b75e" valueTypeId="3ada9449-a098-460a-b425-e9c68e1df0ba"/>
+  </producedTypes>
+  <name>ГитХранилища</name>
+  <synonym>
+    <key>ru</key>
+    <value>Гит хранилища</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ГитХранилища.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ГитХранилища.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="a40d15b3-ed5d-494e-85f4-64163d6a640a">
+    <name>Каталог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9e267451-5cfd-4f2a-9a96-471197583c21">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

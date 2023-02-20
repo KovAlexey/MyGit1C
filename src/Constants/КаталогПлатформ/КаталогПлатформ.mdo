@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24653705-27f7-446c-ba2f-879ebad6d23f">
+  <producedTypes>
+    <managerType typeId="b6f17422-6c13-474b-8322-d53cf84ad36d" valueTypeId="fcac2c1e-3c90-4817-b668-c6222f9f22e0"/>
+    <valueManagerType typeId="12755e76-56c9-4da8-9070-5858d1507b0a" valueTypeId="11e50aa5-fdb6-4c6e-951f-efb5b5574e9b"/>
+    <valueKeyType typeId="7fd01687-e138-4d18-8b4b-fb63d17c5b7f" valueTypeId="3efc7c50-f931-463b-8af3-d12bba2dc517"/>
+  </producedTypes>
+  <name>КаталогПлатформ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каталог платформ</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
