@@ -30,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Конфигурации.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="3588da0d-0168-4056-a739-227546e1f75d">
     <name>Файловая</name>
     <synonym>
@@ -205,4 +206,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="13756052-e643-4b2c-9a02-27f0f62f04da">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

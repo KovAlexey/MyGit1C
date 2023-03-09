@@ -24,7 +24,7 @@
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
-  <compatibilityMode>8.3.20</compatibilityMode>
+  <compatibilityMode>8.3.21</compatibilityMode>
   <languages uuid="53069fec-f3d8-412c-80da-ebf997fd0fdf">
     <name>Русский</name>
     <synonym>
@@ -38,12 +38,14 @@
   <commonModules>CommonModule.РаботаСГитомВызовСервера</commonModules>
   <commonModules>CommonModule.РаботаСГитомКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.РаботаСКонфигурациейКлиентСервер</commonModules>
   <constants>Constant.РабочаяПапка</constants>
   <constants>Constant.КаталогПлатформ</constants>
   <catalogs>Catalog.ГитХранилища</catalogs>
   <catalogs>Catalog.Коммиты</catalogs>
   <catalogs>Catalog.Конфигурации</catalogs>
   <catalogs>Catalog.БазыДанных</catalogs>
+  <catalogs>Catalog.ДеревоОбъектовМетаданных</catalogs>
   <dataProcessors>DataProcessor.ОбновитьКоммиты</dataProcessors>
   <dataProcessors>DataProcessor.ПереносИзменений</dataProcessors>
 </mdclass:Configuration>

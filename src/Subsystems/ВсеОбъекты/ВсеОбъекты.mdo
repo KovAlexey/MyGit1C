@@ -16,6 +16,6 @@
   <content>Constant.КаталогПлатформ</content>
   <content>CommonModule.РаботаСГитомКлиент</content>
   <content>CommonModule.РаботаСГитомВызовСервера</content>
-  <content>CommonModule.РаботаСГитомКлиентСервер</content>
+  <content>CommonModule.РаботаСКонфигурациейКлиентСервер</content>
   <content>Catalog.БазыДанных</content>
 </mdclass:Subsystem>

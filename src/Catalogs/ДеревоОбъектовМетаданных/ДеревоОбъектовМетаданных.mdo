@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35d20ce4-73ee-4391-b132-5307e04cd70c">
+  <producedTypes>
+    <objectType typeId="f3a0ec21-ffd4-447f-8f84-b5fc903b1769" valueTypeId="b314e27b-d60f-48b0-851e-50932a246588"/>
+    <refType typeId="cc8ee02e-0e71-447d-8c69-512cf37d2346" valueTypeId="1fc19ee9-35d5-4164-8763-a762b7880dd1"/>
+    <selectionType typeId="4a074f43-8411-488e-945b-c37badf36596" valueTypeId="df9af123-3a7c-44b1-be79-fb6e839baece"/>
+    <listType typeId="81991055-6c6e-4ac1-a6a9-5f9a17183660" valueTypeId="1aeb15ab-3453-4fc2-81a9-f3f9a731a80e"/>
+    <managerType typeId="28a401ab-3052-4bfc-9b66-87fe6269bd5c" valueTypeId="27703098-51c6-4860-845d-e3388ffebf75"/>
+  </producedTypes>
+  <name>ДеревоОбъектовМетаданных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дерево объектов метаданных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДеревоОбъектовМетаданных.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ДеревоОбъектовМетаданных.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
