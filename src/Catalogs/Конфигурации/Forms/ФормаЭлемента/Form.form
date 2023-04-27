@@ -345,7 +345,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ПутьКХранилищу</segments>
+      <segments>Объект.УдалитьПутьКХранилищу</segments>
     </dataPath>
     <extendedTooltip>
       <name>ПутьКХранилищуРасширеннаяПодсказка</name>
@@ -395,7 +395,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ПользовательХранилища</segments>
+      <segments>Объект.УдалитьПользовательХранилища</segments>
     </dataPath>
     <extendedTooltip>
       <name>ПользовательХранилищаРасширеннаяПодсказка</name>
@@ -445,7 +445,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ПарольХранилища</segments>
+      <segments>Объект.УдалитьПарольХранилища</segments>
     </dataPath>
     <extendedTooltip>
       <name>ПарольХранилищаРасширеннаяПодсказка</name>

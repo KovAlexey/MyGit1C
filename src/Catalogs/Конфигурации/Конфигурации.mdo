@@ -116,10 +116,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="3572468f-d6ef-4692-8ba5-eab63128b124">
-    <name>ПутьКХранилищу</name>
+    <name>УдалитьПутьКХранилищу</name>
     <synonym>
       <key>ru</key>
-      <value>Путь к хранилищу</value>
+      <value>Удалить путь к хранилищу</value>
     </synonym>
     <type>
       <types>String</types>
@@ -136,10 +136,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="120627f2-6dc6-430a-bb60-c9938d21c0f8">
-    <name>ПользовательХранилища</name>
+    <name>УдалитьПользовательХранилища</name>
     <synonym>
       <key>ru</key>
-      <value>Пользователь хранилища</value>
+      <value>Удалить пользователь хранилища</value>
     </synonym>
     <type>
       <types>String</types>
@@ -154,10 +154,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="f2324046-3f62-4d6e-9eb7-8e56b3895548">
-    <name>ПарольХранилища</name>
+    <name>УдалитьПарольХранилища</name>
     <synonym>
       <key>ru</key>
-      <value>Пароль хранилища</value>
+      <value>Удалить пароль хранилища</value>
     </synonym>
     <type>
       <types>String</types>

@@ -165,7 +165,7 @@
     </title>
     <id>2</id>
     <valueType>
-      <types>CatalogRef.ГитХранилища</types>
+      <types>CatalogRef.Проекты</types>
     </valueType>
     <view>
       <common>true</common>

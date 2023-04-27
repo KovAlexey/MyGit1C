@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="234c2571-1978-4ea6-b201-b9d97dcd65f4">
+  <producedTypes>
+    <objectType typeId="a73d98a9-7abf-4c10-a7b6-89cad4dca86e" valueTypeId="8cb47cf3-94c2-4065-881d-21b712607453"/>
+    <refType typeId="f56906d4-19c2-4d8f-8ee6-1ffe674f5372" valueTypeId="8c0b7fe0-9668-4370-808b-24aea79f3935"/>
+    <selectionType typeId="0ff721e7-ba5d-470c-b8f1-84998b69859c" valueTypeId="60a85c1f-c929-4797-b46b-e13c25dee5b6"/>
+    <listType typeId="e5d263ec-232d-4ac9-b4d4-170b3d8876f2" valueTypeId="06d1a4e9-910e-4f77-88d9-53a06d4cd14a"/>
+    <managerType typeId="2c46b64c-2bd1-44da-8881-a00135fdc38c" valueTypeId="8a03df4e-6c14-4c55-a6f6-114d0659657d"/>
+  </producedTypes>
+  <name>ПодключенияКХранилищам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключения к хранилищам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПодключенияКХранилищам.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПодключенияКХранилищам.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Конфигурации</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="6df5c1e5-448f-4b09-a5d4-0b8b6c28d139">
+    <name>ПутьКХранилищу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к хранилищу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="522ea08e-11a1-4f08-a53d-74cdd0579187">
+    <name>ПользовательХранилища</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь хранилища</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="90c8bf47-c546-44d8-9929-143212e1bef3">
+    <name>ПарольХранилища</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль хранилища</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d06821fa-e006-4290-a2b6-ea6845c71897">
+    <name>СвязанныйПроект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Связанный проект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

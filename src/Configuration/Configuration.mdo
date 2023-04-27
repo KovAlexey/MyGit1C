@@ -39,13 +39,15 @@
   <commonModules>CommonModule.РаботаСГитомКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
   <commonModules>CommonModule.РаботаСКонфигурациейКлиентСервер</commonModules>
+  <commonModules>CommonModule.РаботаСКонфигурациейВызовСервера</commonModules>
   <constants>Constant.РабочаяПапка</constants>
   <constants>Constant.КаталогПлатформ</constants>
-  <catalogs>Catalog.ГитХранилища</catalogs>
+  <catalogs>Catalog.Проекты</catalogs>
   <catalogs>Catalog.Коммиты</catalogs>
   <catalogs>Catalog.Конфигурации</catalogs>
   <catalogs>Catalog.БазыДанных</catalogs>
   <catalogs>Catalog.ДеревоОбъектовМетаданных</catalogs>
+  <catalogs>Catalog.ПодключенияКХранилищам</catalogs>
   <dataProcessors>DataProcessor.ОбновитьКоммиты</dataProcessors>
   <dataProcessors>DataProcessor.ПереносИзменений</dataProcessors>
 </mdclass:Configuration>

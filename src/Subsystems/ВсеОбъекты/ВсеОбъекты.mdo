@@ -7,7 +7,7 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Catalog.ГитХранилища</content>
+  <content>Catalog.Проекты</content>
   <content>Catalog.Коммиты</content>
   <content>DataProcessor.ОбновитьКоммиты</content>
   <content>Catalog.Конфигурации</content>
@@ -18,4 +18,5 @@
   <content>CommonModule.РаботаСГитомВызовСервера</content>
   <content>CommonModule.РаботаСКонфигурациейКлиентСервер</content>
   <content>Catalog.БазыДанных</content>
+  <content>Catalog.ПодключенияКХранилищам</content>
 </mdclass:Subsystem>
