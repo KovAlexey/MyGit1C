@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa3d1f40-fd7c-4512-84a6-828d1e8d282f">
+  <producedTypes>
+    <selectionType typeId="ed54d36f-e4b7-41fa-a781-13c61e91f897" valueTypeId="2ab66341-5d9b-4f1d-b3d7-4ba55406711d"/>
+    <listType typeId="a0a2b7cb-5088-46fc-a808-e33cc21cbca6" valueTypeId="9a6d542e-2677-4674-93d5-f4b249b0fdb1"/>
+    <managerType typeId="fdf5a4b0-7af0-469c-a2bd-b1d7e3013116" valueTypeId="dfe15213-46c1-4f72-9735-a6e9a73ae6d9"/>
+    <recordSetType typeId="c44f4e26-009b-4bcb-a517-ee0930a85d60" valueTypeId="409f94e6-0546-4ec5-8aa9-b5108952fd76"/>
+    <recordKeyType typeId="0176b864-6c90-4a37-b802-60de080e395a" valueTypeId="da58c654-8554-4f96-ab3b-5462866be537"/>
+    <recordType typeId="7ecbe4a1-ed99-4a97-b96c-1b8e74db9fe8" valueTypeId="fc5dd56b-cf9d-4d8f-b163-a35ca6ad47f8"/>
+    <recordManagerType typeId="e8c05793-cc20-4ee3-af5e-964bf6c6867d" valueTypeId="c6c13484-cb37-42b1-9cf5-0f5f442dfca6"/>
+  </producedTypes>
+  <name>ЗакэшированноеДеревоКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закэшированное дерево конфигурации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8b3e8002-caf9-4686-a49c-70502ff25212">
+    <name>ХранилищеДерево</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище дерево</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="10b2e58c-ca5d-4f98-a2cb-0da3700cad05">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="001cdb61-35aa-4730-9778-a7e859ee4ef0">
+    <name>Конфигурация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

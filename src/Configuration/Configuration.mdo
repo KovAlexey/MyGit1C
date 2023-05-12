@@ -51,4 +51,5 @@
   <catalogs>Catalog.ПодключенияКХранилищам</catalogs>
   <dataProcessors>DataProcessor.ОбновитьКоммиты</dataProcessors>
   <dataProcessors>DataProcessor.ПереносИзменений</dataProcessors>
+  <informationRegisters>InformationRegister.ЗакэшированноеДеревоКонфигурации</informationRegisters>
 </mdclass:Configuration>

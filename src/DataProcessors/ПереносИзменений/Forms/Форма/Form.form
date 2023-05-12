@@ -11,6 +11,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Проект</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>ПроектПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>ПроектРасширеннаяПодсказка</name>
       <id>44</id>
@@ -61,6 +65,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>БазаИсточник</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>БазаИсточникПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>БазаИсточникРасширеннаяПодсказка</name>
       <id>3</id>
@@ -672,16 +680,16 @@
           <name>ДеревоКонфигурацииКоманднаяПанель</name>
           <id>62</id>
           <items xsi:type="form:Button">
-            <name>ДеревоКонфигурацииЗаполнитьДеревоКонфигурации</name>
-            <id>76</id>
+            <name>ДеревоКонфигурацииОбновитьСтруктуруИнформационнойБазы</name>
+            <id>84</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ДеревоКонфигурацииЗаполнитьДеревоКонфигурацииРасширеннаяПодсказка</name>
-              <id>77</id>
+              <name>ДеревоКонфигурацииОбновитьСтруктуруИнформационнойБазыРасширеннаяПодсказка</name>
+              <id>85</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -694,7 +702,7 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>Form.Command.ЗаполнитьДеревоКонфигурации</commandName>
+            <commandName>Form.Command.ОбновитьСтруктуруИнформационнойБазы</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1111,6 +1119,10 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <handlers>
+    <event>OnLoadDataFromSettingsAtServer</event>
+    <name>ПриЗагрузкеДанныхИзНастроекНаСервере</name>
+  </handlers>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -1474,27 +1486,6 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ВыгрузитьКонфигДампИнфо</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ЗаполнитьДеревоКонфигурации</name>
-    <title>
-      <key>ru</key>
-      <value>Заполнить дерево конфигурации</value>
-    </title>
-    <id>8</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Заполнить дерево конфигурации</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ЗаполнитьДеревоКонфигурации</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
