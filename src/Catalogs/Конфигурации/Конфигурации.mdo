@@ -115,62 +115,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="3572468f-d6ef-4692-8ba5-eab63128b124">
-    <name>УдалитьПутьКХранилищу</name>
-    <synonym>
-      <key>ru</key>
-      <value>Удалить путь к хранилищу</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>150</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="120627f2-6dc6-430a-bb60-c9938d21c0f8">
-    <name>УдалитьПользовательХранилища</name>
-    <synonym>
-      <key>ru</key>
-      <value>Удалить пользователь хранилища</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers/>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="f2324046-3f62-4d6e-9eb7-8e56b3895548">
-    <name>УдалитьПарольХранилища</name>
-    <synonym>
-      <key>ru</key>
-      <value>Удалить пароль хранилища</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers/>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="cd01cf85-cd3f-439f-998b-4a16b141eb8e">
     <name>ВерсияПлатформы</name>
     <synonym>

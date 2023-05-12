@@ -25,7 +25,7 @@
   <foldersOnTop>true</foldersOnTop>
   <owners>Catalog.Конфигурации</owners>
   <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
+  <descriptionLength>150</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
