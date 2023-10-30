@@ -12,6 +12,7 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -34,6 +35,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.ВсеОбъекты</subsystems>
+  <roles>Role.ПолныеПрава</roles>
   <commonModules>CommonModule.РаботаСГитомКлиент</commonModules>
   <commonModules>CommonModule.РаботаСГитомВызовСервера</commonModules>
   <commonModules>CommonModule.РаботаСГитомКлиентСервер</commonModules>
