@@ -43,6 +43,7 @@
   <commonModules>CommonModule.РаботаСКонфигурациейКлиентСервер</commonModules>
   <commonModules>CommonModule.РаботаСКонфигурациейВызовСервера</commonModules>
   <commonModules>CommonModule.РазборКонфигДампИнфо</commonModules>
+  <commonModules>CommonModule.КонвертацияПутейКлиентСервер</commonModules>
   <constants>Constant.РабочаяПапка</constants>
   <constants>Constant.КаталогПлатформ</constants>
   <catalogs>Catalog.Проекты</catalogs>
