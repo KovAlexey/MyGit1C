@@ -1677,6 +1677,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>ЗагружатьЧерезФайл</segments>
+    </settingsSavedData>
   </attributes>
   <formCommands>
     <name>ВыгрузитьИзБазыИсточника</name>
